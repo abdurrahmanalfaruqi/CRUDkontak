@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202908365295",
+    "firebase_url": "https://my-first-firebase-integr-a0c3f.firebaseio.com",
+    "project_id": "my-first-firebase-integr-a0c3f",
+    "storage_bucket": "my-first-firebase-integr-a0c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202908365295:android:07ffc10cf8f9798cf0c61a",
+        "android_client_info": {
+          "package_name": "com.example.crudkontak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202908365295-k7fmvaohjg8s02j6uovo5occ2nv8t6nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crudkontak",
+            "certificate_hash": "cd3075bb90a135b7b21a219b37fbac53f869c436"
+          }
+        },
+        {
+          "client_id": "202908365295-qofge3kn640v6f41v5givgf05is0djop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXQ-_jEuxYlHZa8pllPZJafZ2E3mKVkJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202908365295-qofge3kn640v6f41v5givgf05is0djop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

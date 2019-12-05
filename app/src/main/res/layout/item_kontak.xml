@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:contentPadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idkontak"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="ID KONTAK" />
+
+            <TextView
+                android:id="@+id/namakontak"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="NAMA KONTAK" />
+
+            <TextView
+                android:id="@+id/nomorkontak"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="NOMOR KONTAK" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnhapus2"
+            android:layout_width="50dp"
+            android:layout_height="38dp"
+            android:layout_gravity="end"
+            android:background="@drawable/ic_delete_black_24dp"
+            android:clickable="true" />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

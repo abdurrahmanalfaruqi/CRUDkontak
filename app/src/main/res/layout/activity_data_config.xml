@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataConfig"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvnama"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tvnama"
+        android:text="Nama Kontak"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etnama"
+        app:layout_constraintTop_toBottomOf="@id/tvnama"
+        android:hint="Ketik Nama"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvnomor"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/etnama"
+        android:text="Nomor kontak"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etnomor"
+        app:layout_constraintTop_toBottomOf="@id/tvnomor"
+        android:hint="Ketik Nomor"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etnomor"
+        android:id="@+id/btnSimpan"
+        android:text="SIMPAN"
+        />
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
